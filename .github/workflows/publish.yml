@@ -21,7 +21,7 @@ jobs:
           dotnet-version: '11.0.x'
 
       - name: Pack
-        run: dotnet pack -c Release -o ./nupkg
+        run: dotnet pack -c Release -o ./nupkg -p:Version=${GITHUB_REF_NAME#v}
 
       - name: NuGet Login (OIDC)
         uses: NuGet/login@v1
