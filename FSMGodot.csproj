@@ -9,7 +9,7 @@
     <RepositoryUrl>https://github.com/FlameFox666/FSMGodot</RepositoryUrl>
     <Authors>FlameFox666</Authors>
     <PackageId>FlameFox666.FSMGodot</PackageId>
-    <Version>1.0.1</Version>
+    <Version>1.0.2</Version>
     <Description>Finite State Machine for Godot Engine 4.x</Description>
   </PropertyGroup>
 
