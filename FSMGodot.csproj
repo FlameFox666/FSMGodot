@@ -13,4 +13,8 @@
     <Description>Finite State Machine for Godot Engine 4.x</Description>
   </PropertyGroup>
 
+  <ItemGroup>
+    <None Include="docs\README.md" Pack="true" PackagePath="\"/>
+  </ItemGroup>
+
 </Project>
