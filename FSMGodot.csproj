@@ -1,17 +1,20 @@
-﻿<Project Sdk="Godot.NET.Sdk/4.7.2">
+﻿<Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
     <TargetFramework>net11.0</TargetFramework>
-    <EnableDynamicLoading>true</EnableDynamicLoading>
     <LangVersion>latest</LangVersion>
     <IsAotCompatible>true</IsAotCompatible>
 
     <RepositoryUrl>https://github.com/FlameFox666/FSMGodot</RepositoryUrl>
     <Authors>FlameFox666</Authors>
     <PackageId>FlameFox666.FSMGodot</PackageId>
-    <Version>1.0.2</Version>
+    <Version>1.0.3</Version>
     <Description>Finite State Machine for Godot Engine 4.x</Description>
   </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="GodotSharp" Version="4.7.2" PrivateAssets="all" />
+  </ItemGroup>
 
   <ItemGroup>
     <None Include="README.md" Pack="true" PackagePath="\"/>
