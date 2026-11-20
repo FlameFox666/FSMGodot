@@ -1,0 +1,15 @@
+﻿<Project Sdk="Godot.NET.Sdk/4.7.2">
+
+  <PropertyGroup>
+    <TargetFramework>net11.0</TargetFramework>
+    <EnableDynamicLoading>true</EnableDynamicLoading>
+    <LangVersion>latest</LangVersion>
+    <IsAotCompatible>true</IsAotCompatible>
+
+    <Authors>FlameFox666</Authors>
+    <PackageId>FlameFox666.FSMGodot</PackageId>
+    <Version>1.0.0</Version>
+    <Description>Finite State Machine for Godot Engine 4.x</Description>
+  </PropertyGroup>
+
+</Project>
